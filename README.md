@@ -71,14 +71,3 @@ I build autonomous AI systems, complex backend infrastructures, and database-dri
 * 🌐 **Website:** [jh-automations.de](https://jh-automations.de)
 * 💼 **LinkedIn:** [linkedin.com/in/jannes-harms](https://linkedin.com/in/jannes-harms)
 * ✉️ **Email:** jannes.harms@jh-automations.de
-
----
-
-## 🛠️ Quick Guide: Fixing n8n "Push to Git"
-If the **"Push to Git"** feature inside your n8n workflows is greyed out or throws errors, follow these architectural steps:
-
-1. **Initialize Git in your Source Repository:**
-   Create a private repo on GitHub (e.g., `n8n-workflows`).
-   
-2. **Configure Environment Variables on your n8n Instance (e.g., Railway/Docker):**
-   n8n relies on native Git Source Control. You need to enable it via your instance backend config:
